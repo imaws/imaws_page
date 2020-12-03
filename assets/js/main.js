@@ -28,6 +28,7 @@
   //publication
   $(".clients-carousel").owlCarousel({
     autoplay: true,
+    autoplayTimeout: 8000;
     dots: true,
     loop: true,
     items: 1
@@ -190,6 +191,7 @@
   // Testimonials carousel (uses the Owl Carousel library)
   $(".testimonials-carousel").owlCarousel({
     autoplay: true,
+    autoplayTimeout: 6000,
     dots: true,
     loop: true,
     items: 1
