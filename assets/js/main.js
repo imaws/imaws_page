@@ -31,8 +31,13 @@
     autoplayTimeout: 8000,
     dots: true,
     loop: true,
-    items: 1
+    items: 1,
+    nav: true,
+    navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
   });
+  
+  $( ".owl-prev").html('<div style="margin-left: -200px;"><i class="fa fa-chevron-left"></i></div>');
+  $( ".owl-next").html('<div style="margin-right: -200px;"><i class="fa fa-chevron-right"></i></div>');
 
   // Header scroll class
   $(window).scroll(function() {
