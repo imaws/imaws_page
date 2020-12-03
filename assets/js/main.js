@@ -28,7 +28,7 @@
   //publication
   $(".clients-carousel").owlCarousel({
     autoplay: true,
-    autoplayTimeout: 8000;
+    autoplayTimeout: 8000,
     dots: true,
     loop: true,
     items: 1
